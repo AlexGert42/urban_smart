@@ -1,5 +1,5 @@
 import React from 'react';
-import {Redirect, Route, Switch} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import {Home} from "./home/Home";
 import {Profile} from "./profile/Profile";
 
@@ -19,7 +19,7 @@ export const Content: React.FC<ContentPropsType> = ({auth}) => {
         <div style={contentStyle}>
             <Switch>
                 <Route path={'/'} render={() => <Home auth={auth}/>}/>
-                <Route path={'/profile'} component={() => <Profile auth={auth}/>}/>
+                <Route path={'/profile'} render={() => <Profile auth={auth}/>}/>
             </Switch>
         </div>
     )
