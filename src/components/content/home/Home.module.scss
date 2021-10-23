@@ -1,0 +1,45 @@
+@import "../../../styles/index";
+
+.profile {
+
+  @include FlexBox($justifyContent: center, );
+
+  .form {
+    margin-top: 200px;
+    .form__item {
+      margin: 20px;
+
+      input {
+        @include TextStyle($color: $BaseColorDark);
+        min-width: 300px;
+        padding: 15px;
+        -webkit-box-shadow: 0px 0px 2px 0px rgba(34, 60, 80, 0.4) inset;
+        -moz-box-shadow: 0px 0px 2px 0px rgba(34, 60, 80, 0.4) inset;
+        box-shadow: 0px 0px 2px 0px rgba(34, 60, 80, 0.4) inset;
+
+        &::placeholder {
+          color: rgba(40, 40, 40, 0.5);
+        }
+
+        &:focus {
+          box-shadow: 0px 0px 3px 0px rgba(34, 60, 80, 0.9) inset;
+        }
+      }
+
+      button {
+        cursor: pointer;
+        background-color: $BaseColor;
+        min-width: 300px;
+        padding: 15px;
+        @include TextStyle($color: $BaseColorLight);
+
+        &:active {
+          box-shadow: 0px 0px 7px 0px rgba(34, 60, 80, 0.9) inset;
+        }
+        &:disabled {
+          background-color: rgba(91, 130, 155, 0.5);
+        }
+      }
+    }
+  }
+}

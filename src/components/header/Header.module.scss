@@ -1,0 +1,33 @@
+@import "../../styles/index";
+
+.header {
+  width: 100%;
+  background-color: $BaseColor;
+
+  .header__inner {
+    padding: 20px 50px;
+    @include FlexBox($flexWrap: wrap);
+
+    .header__title {
+      text-transform: capitalize;
+
+      h1 {
+        @include TextStyle(
+                $fontSize: 36px,
+                $leterSpacing: 4px,
+                $fontWeight: 700,
+                $color: $BaseColorLight
+        );
+      }
+    }
+
+    .header__menu {
+      @include FlexBox();
+
+      .header__menu_item {
+        cursor: pointer;
+        @include TextStyle($fontSize: 22px, $color: $BaseColorLight);
+      }
+    }
+  }
+}

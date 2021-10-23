@@ -1,0 +1,47 @@
+@import 'defStyles.scss';
+
+
+//vars
+$BaseColor: #5b829b;
+$BaseColorDark: #282828;
+$BaseColorLight: #e7e7e7;
+
+
+//mixins
+@mixin TextStyle(
+    $fontSize: 18px,
+    $leterSpacing: 2px,
+    $color: $BaseColorDark,
+    $fontWeight: 400,
+) {
+    font-size: $fontSize;
+    letter-spacing: $leterSpacing;
+    color: $color;
+    font-weight: $fontWeight;
+}
+
+@mixin FlexBox(
+    $justifyContent: space-between,
+    $alignItems: center,
+    $flexDirection: row,
+    $flexWrap: nowrap,
+) {
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    flex-direction: $flexDirection;
+    flex-wrap: $flexWrap;
+}
+
+body {
+    background-color: $BaseColorLight;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 50px;
+    @media (max-width: 480px) {
+        padding: 0 15px;
+    }
+}

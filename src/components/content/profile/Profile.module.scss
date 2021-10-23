@@ -1,0 +1,13 @@
+@import "../../../styles/index";
+
+.profile {
+  h1 {
+    text-align: center;
+    @include TextStyle(
+            $fontSize: 48px,
+            $leterSpacing: 5px,
+            $color: $BaseColorDark,
+            $fontWeight: 800,
+    )
+  }
+}
