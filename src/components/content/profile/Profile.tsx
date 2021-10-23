@@ -12,7 +12,7 @@ export const Profile: React.FC<ProfilePropsType> = ({auth}) => {
     const userLogin = useSelector<AppRootState, string>(state => state.app.login)
 
     if (!auth) {
-        return <Redirect to={'/home'}/>
+        return <Redirect to={'/'}/>
     }
     return (
         <div className={styles.profile}>
