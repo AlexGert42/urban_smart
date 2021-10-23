@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/urban_smart/static/css/main.3bc93bd4.chunk.css",
-    "main.js": "/urban_smart/static/js/main.3544b188.chunk.js",
-    "main.js.map": "/urban_smart/static/js/main.3544b188.chunk.js.map",
+    "main.js": "/urban_smart/static/js/main.c9d2533e.chunk.js",
+    "main.js.map": "/urban_smart/static/js/main.c9d2533e.chunk.js.map",
     "runtime-main.js": "/urban_smart/static/js/runtime-main.5221fa29.js",
     "runtime-main.js.map": "/urban_smart/static/js/runtime-main.5221fa29.js.map",
-    "static/js/2.75f81f2c.chunk.js": "/urban_smart/static/js/2.75f81f2c.chunk.js",
-    "static/js/2.75f81f2c.chunk.js.map": "/urban_smart/static/js/2.75f81f2c.chunk.js.map",
+    "static/js/2.10354b44.chunk.js": "/urban_smart/static/js/2.10354b44.chunk.js",
+    "static/js/2.10354b44.chunk.js.map": "/urban_smart/static/js/2.10354b44.chunk.js.map",
     "index.html": "/urban_smart/index.html",
     "static/css/main.3bc93bd4.chunk.css.map": "/urban_smart/static/css/main.3bc93bd4.chunk.css.map",
-    "static/js/2.75f81f2c.chunk.js.LICENSE.txt": "/urban_smart/static/js/2.75f81f2c.chunk.js.LICENSE.txt"
+    "static/js/2.10354b44.chunk.js.LICENSE.txt": "/urban_smart/static/js/2.10354b44.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5221fa29.js",
-    "static/js/2.75f81f2c.chunk.js",
+    "static/js/2.10354b44.chunk.js",
     "static/css/main.3bc93bd4.chunk.css",
-    "static/js/main.3544b188.chunk.js"
+    "static/js/main.c9d2533e.chunk.js"
   ]
 }
