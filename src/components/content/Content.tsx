@@ -18,8 +18,8 @@ export const Content: React.FC<ContentPropsType> = ({auth}) => {
     return (
         <div style={contentStyle}>
             <Switch>
-                <Route path={'/'} render={() => <Home auth={auth}/>}/>
-                <Route path={'/profile'} render={() => <Profile auth={auth}/>}/>
+                <Route path={'/'} exact render={() => <Home auth={auth}/>}/>
+                <Route path={'/profile'} exact render={() => <Profile auth={auth}/>}/>
             </Switch>
         </div>
     )
